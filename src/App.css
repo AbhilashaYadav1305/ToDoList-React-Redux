@@ -1,0 +1,126 @@
+/* Global Styles */
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #e0ece4;
+  color: #333;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Utilities */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  border: solid 2px black;
+}
+
+/* Text Styles*/
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  background: var(--light-color);
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+}
+
+.btn-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Forms */
+.form {
+  margin: 1.2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  display: block;
+  width: 80%;
+  height: 4rem;
+  padding: 0.4rem;
+  border: 2px solid #ccc;
+}
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  align-items: center;
+  grid-gap: 1rem;
+}
+
+/* Margin */
+
+.ml {
+  margin-left: 2rem;
+  width: 10rem;
+  font-family: 'Raleway';
+}
+.my-1 {
+  margin: 0.5rem 0.5rem;
+}
+.my-2 {
+  margin: 1rem 1rem;
+  font-family: 'Raleway';
+}
+.my-3 {
+  margin-left: 10rem;
+  font-family: 'Raleway';
+}
